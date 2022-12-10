@@ -1,4 +1,4 @@
-collect_ratings() {
+collect_ratings() = {
     const ratings = {
         count: 0,
         sum: 0,
