@@ -1,7 +1,7 @@
 
 
 const collect_ratings = () => {
-    let ratings = { count: '0', sum: '0', average: '0'};
+    const ratings = { count: '0', sum: '0', average: '0'};
     let rating = 0;
 };
 //element variable is an array of ratings
