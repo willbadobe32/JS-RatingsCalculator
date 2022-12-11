@@ -9,12 +9,9 @@ const collect_ratings = () => {
     let rating = 0;
 };
 //element variable is an array of ratings
-const elements = document.querySelectorAll('.ratings);
-elements.forEach (element => {
-rating = parseInt(element.id.replace('star', ''));
-});
+const elements = document.querySelectorAll('.ratings');
 
-}
+elements.forEach( function (element) {});
 
  
 
