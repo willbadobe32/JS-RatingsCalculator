@@ -20,6 +20,10 @@ const elements = document.querySelectorAll('.rating');
     return ratings;
 };
 
+document.addEventListener('change' () => {
+    const ratings = collect_ratings();
+    document.querySelector('#average').value = ratings.averagetoFixed(2);
+});
  
 
 
